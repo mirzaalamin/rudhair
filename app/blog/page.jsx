@@ -49,7 +49,7 @@ const page = () => {
     },
   ];
   return (
-    <div className="pb-16 bg-primary">
+    <div className="pb-16 bg-white dark:bg-primary">
       <GeneralHero
         image="/images/logo.png"
         title="RudBlog"
@@ -57,7 +57,7 @@ const page = () => {
         hashTag="#WeAreRudHair"
         bordered
       />
-      <section className="bg-primary flex flex-col gap-16">
+      <section className="bg-white dark:bg-primary flex flex-col gap-16">
         {posts.map((post) => (
           <BlogCard post={post} key={post.title} />
         ))}

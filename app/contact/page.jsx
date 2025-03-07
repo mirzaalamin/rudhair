@@ -16,7 +16,7 @@ const page = () => {
         style={{ backgroundImage: "url('/images/rudhair-banner-2.jpg')" }}
       ></div>
 
-      <div className="bg-primary w-full pb-[40px] xl:py-5">
+      <div className="bg-white dark:bg-primary w-full pb-[40px] xl:py-5">
         <div className="grid grid-cols-1 xl:grid-cols-3 w-[95%] m-auto p-10">
           <div className="left-column xl:h-full h-[400]">
             <img

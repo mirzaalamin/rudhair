@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const GeneralHero = ({ image, title, content, hashTag, bordered }) => {
   return (
-    <div className="bg-primary px-10 py-16 text-center flex flex-col items-center gap-5 border-none">
+    <div className="bg-white dark:bg-primary px-10 py-16 text-center flex flex-col items-center gap-5 border-none">
       <div
         className={cn(
           bordered

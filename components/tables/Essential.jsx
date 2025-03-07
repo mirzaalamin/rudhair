@@ -1,6 +1,6 @@
 const Essential = () => {
   return (
-    <div class="overflow-x-auto py-14 bg-primary px-5">
+    <div class="overflow-x-auto py-14 bg-white dark:bg-primary px-5">
       <table class="min-w-full text-sm text-muted-foreground font-raleway">
         <thead>
           <tr>

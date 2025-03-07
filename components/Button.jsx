@@ -5,7 +5,9 @@ const Button = ({ label, url, hoverColor }) => {
   return (
     <button
       className={cn(
-        hoverColor ? `hover:bg-[#fff]  hover:text-secondary` : "bg-secondary",
+        hoverColor
+          ? `hover:bg-primary dark:hover:bg-[#fff]  hover:text-secondary`
+          : "bg-secondary",
         "px-3 py-1 bg-secondary"
       )}
     >

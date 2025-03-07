@@ -5,7 +5,7 @@ import Button from "../Button";
 
 const Footer = () => {
   return (
-    <div className="flex flex-col items-center bg-primary border-t-[1px] border-secondary pt-16 pb-5 gap-8">
+    <div className="flex flex-col items-center bg-white dark:bg-primary border-t-[1px] border-secondary pt-16 pb-5 gap-8">
       <div className="flex flex-col items-center gap-5">
         <Image src="/images/logo.png" height={130} width={130} alt="Logo" />
         <div className="h4 text-center">

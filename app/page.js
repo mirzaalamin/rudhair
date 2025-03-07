@@ -9,7 +9,7 @@ export default function Home() {
       <Hero />
       <div
         id="next-section"
-        className="bg-primary gap-10 flex flex-col py-[50px]"
+        className="bg-white dark:bg-primary gap-10 flex flex-col py-[50px]"
       >
         <div className="flex flex-col items-center justify-center w-[85%] m-auto gap-10">
           <h2 className="text-3xl font-yesevaOne text-secondary">
@@ -34,7 +34,7 @@ export default function Home() {
       </div>
       <div className="xl:min-h-[500px] min-h-[300px] bg-[url(https://rudhair.co.uk/wp-content/uploads/2019/03/3-VF_v2.jpg)] bg-cover bg-center "></div>
 
-      <div className="bg-primary w-full pb-[40px] xl:py-16">
+      <div className="bg-white dark:bg-primary w-full pb-[40px] xl:py-16">
         <div className="grid grid-cols-1 xl:grid-cols-3 w-[95%] m-auto p-10 ">
           <Blurb
             image="/images/comb.png"

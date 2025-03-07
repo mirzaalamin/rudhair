@@ -27,7 +27,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${raleway.variable} ${yesevaOne.variable} antialiased`}>
+      <body
+        className={`${raleway.variable} ${yesevaOne.variable} antialiased dark`}
+      >
         <Navigation />
         {children}
         <Footer />

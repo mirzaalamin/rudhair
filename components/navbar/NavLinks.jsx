@@ -35,7 +35,7 @@ const NavLinks = ({ isMobile }) => {
               href={item.route}
               key={item.route}
               className={cn(
-                isActive ? "text-secondary" : "text-[#fff]",
+                isActive ? "text-secondary" : "dark:text-[#fff] text-primary",
                 "hover:text-secondary"
               )}
             >

@@ -25,7 +25,7 @@ Our clients are more than just customers; they are part of the Rudhair family. W
         style={{ backgroundImage: "url('/images/rudhair-banner.jpg')" }}
       ></div>
 
-      <div className="bg-primary w-full pb-[40px] xl:py-16">
+      <div className="bg-white dark:bg-primary w-full pb-[40px] xl:py-16">
         <div className="grid grid-cols-1 xl:grid-cols-3 w-[95%] m-auto p-10">
           <Blurb
             title="Our Story"

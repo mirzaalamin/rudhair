@@ -1,6 +1,6 @@
 const ThreeColumnSection = () => {
   return (
-    <div className="bg-primary w-full">
+    <div className="bg-white dark:bg-primary w-full">
       <div className="grid grid-cols-1 xl:grid-cols-3 w-[95%] m-auto p-10 ">
         <div className="py-16 xl:px-16 xl:py-5">
           <h3 className="text-secondary h3">Our personal promise:</h3>
