@@ -4,7 +4,7 @@ import Link from "next/link";
 const BlogCard = ({ post }) => {
   const { title, image, excerpt } = post;
   return (
-    <div className="w-[640px] m-auto flex flex-col gap-5">
+    <div className="xl:w-[640px] w-full m-auto flex flex-col gap-5 px-10 xl:px-0">
       <Image
         src={image}
         height={700}

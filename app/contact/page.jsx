@@ -32,7 +32,11 @@ const page = () => {
                   <span>E: info@rudhair.co.uk</span>
                 </div>
 
-                <Button label="BOOK ONLINE" url="#" hoverColor />
+                <Button
+                  label="BOOK ONLINE"
+                  url="https://phorest.com/book/salons/rudhair"
+                  hoverColor
+                />
               </div>
               <div className="flex flex-col items-center gap-5">
                 <h4 className="h4 text-center">
