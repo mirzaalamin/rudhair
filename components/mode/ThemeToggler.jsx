@@ -30,12 +30,12 @@ const ThemeToggler = () => {
     setIsDark(!isDark);
   };
   return (
-    <div>
-      <div onClick={handleToggle} className="cursor-pointer">
+    <div className="border border-primary bg-primary dark:bg-white rounded-lg">
+      <div onClick={handleToggle} className="cursor-pointer p-2">
         {isDark ? (
-          <Image src={sun} height={20} width={20} alt="theme-icon" />
+          <Image src={sun} height={16} width={16} alt="theme-icon" />
         ) : (
-          <Image src={moon} height={20} width={20} alt="theme-icon" />
+          <Image src={moon} height={16} width={16} alt="theme-icon" />
         )}
       </div>
     </div>

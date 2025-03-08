@@ -5,7 +5,7 @@ import NavLinks from "./NavLinks";
 
 const DesktopNavigation = () => {
   return (
-    <div className="flex justify-between items-center">
+    <div className="flex justify-between items-center max-md:hidden">
       <div>
         <Link href="/">
           <Image src="/images/logo.png" height={50} width={50} alt="Logo" />
